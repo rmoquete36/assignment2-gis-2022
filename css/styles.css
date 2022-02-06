@@ -1,0 +1,55 @@
+.should-be-centered {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.main-body-text {
+  color: #0d3b78;
+  font-style: italic;
+}
+
+.secondary-body-text {
+  color: black;
+}
+
+.trail-container {
+  border: 1px dashed;
+  border-radius: 5px;
+  padding: 5px 9px;
+  background: #053b82;
+  font-family: Georgia, serif;
+  color: #edeff2;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.trail-container:hover {
+  background: #4689a6;
+}
+
+.trail-name {
+  font-size: 14px;
+}
+
+.full-width img {
+  width: 100%;
+  display: inline-block;
+}
+
+.content div p {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.half-width {
+  width: 49%;
+  display: inline-block;
+}
+
+.right-half img {
+  width: 100%;
+}
