@@ -11,6 +11,11 @@
   font-style: italic;
 }
 
+.main-body-text:hover {
+  color: #c29006;
+  text-decoration: underline;
+}
+
 .secondary-body-text {
   color: black;
 }
@@ -28,7 +33,7 @@
 }
 
 .trail-container:hover {
-  background: #4689a6;
+  background: #c29006;
 }
 
 .trail-name {
@@ -53,4 +58,12 @@
 
 .right-half img {
   width: 100%;
+}
+
+/* this is hopefully for centering images lol */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 49%
 }
