@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.left-align {
-  text-align: left;
-}
-
 .main-body-text {
   color: #0d3b78;
   font-style: italic;
@@ -14,10 +10,6 @@
 .main-body-text:hover {
   color: #c29006;
   text-decoration: underline;
-}
-
-.secondary-body-text {
-  color: black;
 }
 
 /* this is the trail button */
@@ -32,8 +24,11 @@
   cursor: pointer;
 }
 
+/* changes font appearance */
 .trail-container:hover {
   background: #c29006;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .trail-name {
@@ -45,12 +40,6 @@
   display: inline-block;
 }
 
-.content div p {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 .half-width {
   width: 49%;
   display: inline-block;
@@ -58,12 +47,4 @@
 
 .right-half img {
   width: 100%;
-}
-
-/* this is hopefully for centering images lol */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 49%
 }
